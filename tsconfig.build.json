@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // Выбираем ESNext для модуля
+    "moduleResolution": "Node", // Для разрешения модулей в стиле Node.js
+    "target": "ESNext", // Цель компиляции — последний стандарт ECMAScript
+    "jsx": "react-jsx", // Если используешь JSX, то нужно указать правильный тип
+    "esModuleInterop": true, // Для поддержки импортов CommonJS
+    "allowSyntheticDefaultImports": true, // Для работы с импортами по умолчанию
+    "strict": true, // Включаем строгий режим TypeScript
+    "skipLibCheck": true, // Пропуск проверки библиотек (для скорости)
+    "forceConsistentCasingInFileNames": true, // Обеспечивает согласованность регистра в именах файлов
+    "baseUrl": "./", // Базовый путь
+    "paths": {
+      "src/*": ["src/*"] // Настройка путей, если используешь алиасы
+    }
+  },
+  "include": ["src/**/*"], // Указываем, что будет включено в компиляцию
+  "exclude": ["node_modules"] // Исключаем node_modules
+}

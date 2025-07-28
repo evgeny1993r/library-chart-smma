@@ -1,0 +1,16 @@
+import { IShade } from 'src/interfaces';
+
+export const SETTINGS_CHART = {
+  PADDING_VERTICAL: 16,
+  WIDTH_KLINE: 3,
+  WIDTH_SHADOW: 1,
+  GAP: 2,
+  SCROLL_STEP: 5,
+  BULLISH_SHADE: 700 as IShade,
+  BEARISH_SHADE: 700 as IShade,
+
+  SMMA_LINE_WIDTH_TOP: 1,
+  SMMA_LINE_WIDTH_BOTTOM: 1,
+  SMMA_LINE_SHADE_TOP: 700 as IShade,
+  SMMA_LINE_SHADE_BOTTOM: 700 as IShade,
+};
